@@ -21,7 +21,7 @@
     <groupId>org.apache.parquet</groupId>
     <artifactId>parquet</artifactId>
     <relativePath>../pom.xml</relativePath>
-    <version>1.12.0-kylin-r5</version>
+    <version>1.12.0-kylin-r6</version>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
@@ -38,7 +38,7 @@
       <url>http://conjars.org/repo</url>
     </repository>
   </repositories>
-  
+
   <dependencies>
     <dependency>
       <groupId>org.apache.parquet</groupId>
