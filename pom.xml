@@ -85,7 +85,7 @@
     <thrift.version>0.7.0</thrift.version>
     <fastutil.version>7.0.13</fastutil.version>
     <semver.api.version>0.9.33</semver.api.version>
-    <slf4j.version>1.7.22</slf4j.version>
+    <slf4j.version>1.7.30</slf4j.version>
     <avro.version>1.8.1</avro.version>
     <guava.version>20.0</guava.version>
     <mockito.version>1.10.19</mockito.version>
@@ -524,7 +524,7 @@
         <!-- test hadoop-1 with the same jars that were produced for default profile -->
         <maven.main.skip>true</maven.main.skip>
         <hadoop.version>${hadoop1.version}</hadoop.version>
-        <pig.classifier />
+        <pig.classifier/>
       </properties>
     </profile>
     <profile>
